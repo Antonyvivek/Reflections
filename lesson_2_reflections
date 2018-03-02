@@ -5,11 +5,16 @@ A new git repository is created. .git file comes in place.
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+staging area is one in betwwen working directory and Repository. By using git add we can move a file from working directory to staging area. 
+git commit will only commit those in staging area to repository.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+After completing the work completly I can commit. Until then I can work only add the changes to staging area.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
 
 How do the diagrams help you visualize the branch structure?
 
