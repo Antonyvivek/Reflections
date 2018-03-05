@@ -13,3 +13,7 @@ Forks:  Its a kind of clone. But it is in github within our remote. We can clone
 Clones: An automatic connection of rmote is connected provided we have permission to do so. 
 
 Branches: To try out new things we will branch and try it over there.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+so that we can make additional feature and our friends can also add features. Finally we can merge.
