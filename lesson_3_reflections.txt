@@ -5,3 +5,11 @@ A remote repository needed to get our code in  github or multiple people can sha
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 May be sometimes we need it that way.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks:  Its a kind of clone. But it is in github within our remote. We can clone this back to our local and push and pull as if needed.
+
+Clones: An automatic connection of rmote is connected provided we have permission to do so. 
+
+Branches: To try out new things we will branch and try it over there.
