@@ -17,3 +17,9 @@ Branches: To try out new things we will branch and try it over there.
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 so that we can make additional feature and our friends can also add features. Finally we can merge.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without github I may make my mistake in my original code itself. Git allows me to create the change on a sepereate branch.
+Once reviewer is ok with m,y change he can merge it with respective master branch in Github.
