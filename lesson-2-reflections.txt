@@ -28,6 +28,10 @@ keep the master one as production. We can try out new things in a branch.
 
 How do the diagrams help you visualize the branch structure?
 
+Diagrams help me to understand the no of bramnches and the flow of commits done 
+so far. We can even go back and forth within a particular branch. We can missout a 
+commit if we are in a detached state and commit without a new branch. If we checkout another branch and returned back to the head state.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
