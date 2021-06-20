@@ -1,0 +1,26 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Once we initialiase a repository using git init we will be able to commit our changes. 
+All commit will be saved as a snapshot in the history. We can see it using git log.
+We can checkout any previous commitid using git checkout.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+Staging area is a nice way to add things from a working directory that go together.
+So we can work on a html file add it and make changes in the css then add it.
+Finally we can commit it. There may be other files in the repository which we dont need to track.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
