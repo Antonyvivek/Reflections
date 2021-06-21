@@ -34,6 +34,9 @@ commit if we are in a detached state and commit without a new branch. If we chec
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+Mergeing allows to merge the changes done in two seperate branches and
+bundle the changes together. There may be few lines of code deleted , added in each branch. 
+By merging deleted lines will be deleted and added lines from both branch be added.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
