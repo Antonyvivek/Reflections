@@ -40,3 +40,9 @@ By merging deleted lines will be deleted and added lines from both branch be add
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Gits auto merging is excellent when the changes are made in different part 
+of code base. Manually merging may be tedious as couple of lines may be deleted or added 
+while we are working on the branch. So manual merging fixes the problem and
+saves the head ache. But interestingly if the change happens in the same lines of
+code then as a programmer we have to decide what changes needs to be incorporated.
