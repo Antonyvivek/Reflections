@@ -4,3 +4,10 @@ local?
 I would like to have a remote repository when more than one person
 works on a project. So we will have a common place where we can push and pull
 our changes.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+It is better we pull the master and do the changes locally.
+Meanwhile our team mates can change the master. So we keep ours in
+a seperate branch and pull the new up to date master.
+THen we can merge it with our branch and changes will be reflected. 
+But there can be merge conflict which we need to fix and commit.
