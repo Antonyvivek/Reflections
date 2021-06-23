@@ -11,3 +11,15 @@ Meanwhile our team mates can change the master. So we keep ours in
 a seperate branch and pull the new up to date master.
 THen we can merge it with our branch and changes will be reflected. 
 But there can be merge conflict which we need to fix and commit.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+forks - Forks are the clone that we do on a git hub level. Because many ppl
+share their code but they allow others to change their code base. So we can fork
+it a maintain with our fithub account.
+Clones - Clones are basiclally like downloading from github into 
+our local repository. Here we will be also be connected to remote
+repo from which we cloned in the first place. Here we can collaborate and push and pull
+changes to.
+Branch - We  can create a branch and work on it so master remain untouched. May be after a month
+we refresh master using git pull and then we can merge with our change into master and
+push it back to github.
