@@ -23,3 +23,8 @@ changes to.
 Branch - We  can create a branch and work on it so master remain untouched. May be after a month
 we refresh master using git pull and then we can merge with our change into master and
 push it back to github.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+We can see  the difference in code using git diff origin/master master.
+Also if something goes wrong during git pull and merging. If the app is broken
+We can fix it by runing git diff and then fix the changes.
