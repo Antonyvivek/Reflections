@@ -1,18 +1,18 @@
-When would you want to use a remote repository rather than keeping all your work
+1.When would you want to use a remote repository rather than keeping all your work
 local?
 
 I would like to have a remote repository when more than one person
 works on a project. So we will have a common place where we can push and pull
 our changes.
 
-Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+2.Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 It is better we pull the master and do the changes locally.
 Meanwhile our team mates can change the master. So we keep ours in
 a seperate branch and pull the new up to date master.
 THen we can merge it with our branch and changes will be reflected. 
 But there can be merge conflict which we need to fix and commit.
 
-Describe the differences between forks, clones, and branches. When would you use one instead of another?
+3.Describe the differences between forks, clones, and branches. When would you use one instead of another?
 forks - Forks are the clone that we do on a git hub level. Because many ppl
 share their code but they allow others to change their code base. So we can fork
 it a maintain with our fithub account.
@@ -24,7 +24,15 @@ Branch - We  can create a branch and work on it so master remain untouched. May 
 we refresh master using git pull and then we can merge with our change into master and
 push it back to github.
 
-What is the benefit of having a copy of the last known state of the remote stored locally?
+4.What is the benefit of having a copy of the last known state of the remote stored locally?
 We can see  the difference in code using git diff origin/master master.
 Also if something goes wrong during git pull and merging. If the app is broken
 We can fix it by runing git diff and then fix the changes.
+
+5.How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Harder - No need to learn so many git commands and the confusion with branches , local and github environment.Ha ha sorry
+but I felt this way.
+Easier - May be if it is a large project where many ppl works simultaneusly on a file there is a chance
+once could damage the files. They have to manually take backup and everything. So git allows the concept of
+branching where we can make the new changes needed. Then push it to github and create a pullrequest to merge with
+master. So someone could review our work and when all agree we can merge it with master.
