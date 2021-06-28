@@ -36,3 +36,12 @@ Easier - May be if it is a large project where many ppl works simultaneusly on a
 once could damage the files. They have to manually take backup and everything. So git allows the concept of
 branching where we can make the new changes needed. Then push it to github and create a pullrequest to merge with
 master. So someone could review our work and when all agree we can merge it with master.
+
+6.When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+It is better to always make our changes in seperate branch when we work as a team. Because our teammtes
+can change the master in github with some changes while we are working on it. So it is better to make our changes seperate.
+We can later fetch the recent master and merge it with our branch. Finally if all goes well we can merge it with master and push it to github.
+
+But if we are working on a solo project. We can make the changes directly on the master. As we are only one
+who will be making the changes. As we add new things we can push and pull depending on where we made the changes either in git
+or github.
